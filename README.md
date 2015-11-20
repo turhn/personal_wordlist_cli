@@ -1,3 +1,6 @@
+[![Build Status](https://secure.travis-ci.org/turhn/personal_wordlist_cli.png)](http://travis-ci.org/turhn/personal_wordlist_cli)
+[![Gem Version](https://badge.fury.io/rb/personal_wordlist_cli.svg)](https://badge.fury.io/rb/personal_wordlist_cli)
+
 # personal_wordlist_cli
 
 **personal_wordlist_cli** is a CLI application based on the [personal_wordlist](https://github.com/turhn/personal_wordlist) library. It creates dictionaries from patterns based on a social engineering personal data. 
