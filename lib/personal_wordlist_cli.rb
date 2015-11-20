@@ -1,0 +1,5 @@
+require_relative 'personal_wordlist_cli/version'
+require_relative 'personal_wordlist_cli/pattern_file'
+require_relative 'personal_wordlist_cli/data_file'
+require_relative 'personal_wordlist_cli/commands'
+require_relative 'personal_wordlist_cli/runner'
