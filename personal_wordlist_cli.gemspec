@@ -4,14 +4,14 @@ require 'personal_wordlist_cli/version'
 Gem::Specification.new do |s|
   s.name = 'personal_wordlist_cli'
   s.version = PersonalWordlistCLI::VERSION
-  s.summary = 'Generates possible words from the given rules.'
+  s.summary = 'Generates information aware brute-force dictionaries from given data.'
   s.description = s.summary
   s.homepage = 'https://github.com/turhn/personal_wordlist_cli'
 
   s.author = 'Turhan Coskun'
   s.email = 'turhancoskun@gmail.com'
 
-  s.files =  `git ls-files`.split("\n").reject { |path| path =~ /\.gitignore$/ }
+  s.files = `git ls-files`.split("\n").reject { |path| path =~ /\.gitignore$/ }
   s.test_files = `git ls-files -- Appraisals {spec,features,gemfiles}/*`.split("\n")
 
   s.executables = `git ls-files -- bin/*`.split("\n").map { |f| File.basename f }

@@ -19,6 +19,28 @@ module PersonalWordlistCLI
       f.close
     end
 
+    desc 'init', 'Create a sample PatternFile on working directory.'
+    def init
+      pf = File.new 'PatternFile', 'w+'
+      pf.puts <<-ruby
+# This is a Patternfile for PersonalWordListCLI
+# This is Ruby DSL so you can use Ruby syntax to create patterns.
+
+#sequence(0..999) do |n|
+#  partial { first_name[0..2].downcase }
+#  partial { n.to_s }
+#  partial { last_name[0] }
+#end
+
+#sequence(0..999) do |n|
+#  partial { first_name[0..2].downcase }
+#  partial { n.to_s }
+#  partial { last_name[0] }
+#end
+ruby
+      pf.close
+    end
+
     desc '--version, -v', 'Prints the version information'
     def __print_version
       puts PersonalWordlistCLI::VERSION

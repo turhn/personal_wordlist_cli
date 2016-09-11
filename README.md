@@ -3,7 +3,7 @@
 
 # personal_wordlist_cli
 
-**personal_wordlist_cli** is a CLI application based on the [personal_wordlist](https://github.com/turhn/personal_wordlist) library. It creates dictionaries from patterns based on a social engineering personal data. 
+**personal_wordlist_cli** is a CLI application based on the [personal_wordlist](https://github.com/turhn/personal_wordlist) library. It creates information aware brute-force dictionaries from patterns based on a data. 
 
 When you install the gem it will add a ```pwlcli``` command to your path.
 
@@ -53,7 +53,7 @@ Just change 'dictionay.txt' with the files created with the command above.
 
 ## Legal Notice
 
-This tool is created for security intentions not for brute-force attacks. Testing weak passwords or recovering forgotten passwords. I cannot be responsible of any misusage of the tool.
+This tool is created for security intentions not for performing brute-force attacks. First intension was testing weak passwords or recovering forgotten passwords. I cannot be responsible of any misusage of the tool.
 
 ## Licence
 
@@ -61,4 +61,4 @@ MIT
 
 ## Contributions
 
-Any contributions are welcome.
+Any contributions are welcomed.

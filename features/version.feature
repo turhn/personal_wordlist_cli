@@ -3,5 +3,5 @@ Feature: Display proper version information
     When I run `pwlcli -v`
     Then the output should contain:
       """
-      0.0.1
+      0.1.0
       """
